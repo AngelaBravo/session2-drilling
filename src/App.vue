@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Session2Drilling msg="Session 2 Drilling" casa="casita"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Session2Drilling from './components/Session2Drilling.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Session2Drilling
   }
 }
 </script>
